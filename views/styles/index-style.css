@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+div
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: black;
+}
+
+a {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: blue;
+}
+
+input {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: black;
+}
+
+button
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: black;
+}
