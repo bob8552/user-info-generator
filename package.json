@@ -1,17 +1,27 @@
 {
-  "name": "unnamed",
+  "name": "user-info-generator",
   "version": "1.0.0",
-  "description": "A website made with express, a collaboration",
-  "main": "index.js",
+  "description": "A webpage that generates fake and random user information.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "@arxen-devs",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.3",
     "express": "^4.17.1"
-  }
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/bob8552/user-info-generator"
+  },
+  "license": "ISC",
+  "keywords": [
+    "random",
+    "generator",
+    "user",
+    "information"
+  ]
 }

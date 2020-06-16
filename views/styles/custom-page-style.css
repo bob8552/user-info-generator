@@ -24,3 +24,12 @@ button
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: black;
 }
+
+label {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: black;
+}
+
+#warnbox {
+  color: red;
+}

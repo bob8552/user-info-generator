@@ -26,17 +26,24 @@
     <div>Password</div>
     <input type="text" disabled="disabled" required placeholder="Password..." id="pass"><br><br>
   
-    <button id="button" onclick="onClickC()">Click to generate profile</button><br><br>
+    <button id="button" onclick="onClickC()">Click to generate profile</button><br>
     
-  
-    <input type="radio" id="male" name="gender" value="male">Male
-    <input type="radio" id="female" name="gender" value="female">Female
-    <input type="radio" id="any" name="gender" value="any">Any<br>
+    <h2>Options</h2>
     
-    <input type="text" id="passlength" required placeholder="Password length">Password length
+    <label for="male">Male</label><br>
+    <input type="radio" id="male" name="gender" value="male"><br>
+    <label for="female">Female</label><br>
+    <input type="radio" id="female" name="gender" value="female"><br>
+    <label for="any">Random</label><br>
+    <input type="radio" id="any" name="gender" value="any"><br><br>
+    
+    <label for="passlength">Password Length</label><br>
+    <input type="text" id="passlength" required placeholder="Password length"><br><br>
     
     
-    <div id="warnbox"></div>
+    <div id="warnbox"></div><br><br>
+    
+    <a href="/">Back to main page</a>
     
   </body>
 </html>
