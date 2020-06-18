@@ -219,6 +219,7 @@ function onClick() {
   document.getElementById("user").value = generateUsername();
   document.getElementById("pass").value = generatePassword(Math.ceil(Math.random() * 15) + 5);
   document.getElementById("fullname").value = generateName();
+  document.getElementById("bio").value = sentence();
 }
 
 //Customised generation functions
@@ -252,4 +253,49 @@ function onClickC() {
   document.getElementById("user").value = generateUsername();
   document.getElementById("pass").value = generatePassword(propmt);
   document.getElementById("fullname").value = customname();
+}
+
+//Sentence generation (Bio)
+
+var struct1 = [
+  "We are",
+  "I am",
+  "That is"
+];
+
+var connecter = [
+  "very", 
+  "kinda", 
+  "a bit", 
+  "quite",
+  "rather",
+  "somehow"
+];
+
+var struct2 = [
+  "happy",
+  "stinky",
+  "horrible",
+  "eager",
+  "smart",
+  "clever",
+  "aspiring",
+  "sad",
+  "depressed"
+];
+
+var struct3 = [
+  ":)",
+  ";)",
+  "o-o",
+  "*-*",
+  ":P",
+  "......",
+  " "
+];
+
+function sentence() {
+
+  return `${struct1[Math.floor(Math.random() * struct1.length)]} ${connecter[Math.floor(Math.random() * connecter.length)]} ${struct2[Math.floor(Math.random() * struct2.length)]} ${struct3[Math.floor(Math.random() * struct3.length)]}`;
+  
 }
